@@ -6,7 +6,6 @@ applications:
   services:
   - sso
   env:
-    CF_TARGET: https://api.system.derrickwong.hk
     GRANT_TYPE: client_credentials
     SSO_AUTHORITIES: contact.read
 
