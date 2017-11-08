@@ -44,11 +44,4 @@ env:
   SSO_AUTHORITIES: contact.read
 ```    
 
-There are two manifest here. One with ```contact.admin``` and ```contact.read``` and the other have only ```contact.read```.
-
-Push app by:
-```cf push ``` 
-and
-```cf push -f manifest-admin.yml```
-
 Please refer to Resource Server sample [here](https://github.com/dwong-pivotal/pcf-sso-resource-server) 
